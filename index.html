@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel='stylesheet' type="text/css">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+  <script src='js/jquery-3.6.0.js'></script>
+  <script src='js/scripts.js'></script>
+  <title>Celebrity Dating</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h2 class="card-title">Find a compatible cartoon character</h2>
+      <div class="card-body">
+        <form id="cartoon-dating">
+          <div class="form-group">
+            <label for="era">What Cartoon Era do you Prefer?</label>
+            <select class="form-control" id="era">
+              <option disabled selected value> -- select an option -- </option>
+              <option>30s to 70s</option>
+              <option>80s to 90s</option>
+              <option>2000s</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="animation">What is your Favorite Animation Style?</label>
+            <select class="form-control" id="animation">
+              <option disabled selected value> -- select an option -- </option>
+              <option>Hand Drawn</option>
+              <option>Computer Generated</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="game-tv-movie">Do you like characters from Video Games, TV, or Movies?</label>
+            <select class="form-control" id="game-tv-movie">
+              <option disabled selected value> -- select an option -- </option>
+              <option>Video Games</option>
+              <option>TV Shows</option>
+              <option>Movies</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-dark" id="surveyResults">Get Results</button>
+        </form>
+      </div>
+    </div>
+    <div class="card" id="card-results">
+      <h2 class="card-title">Your Ideal Cartoon</h2>
+      <div class="card-body">
+        <img src="test.jpg" id="cartoon-headshot">
+        <p>Your cartoon character is <span id="cartoon-result-name">NAME HERE</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    catroon questions
+
+    Favoreite era: 30s-80s, 80s-90s, 2000s?
+    style of animation: hand drawn, computer
+    video game characters vs. television characters vs movie
+    First name starting character preference
+  -->
+
+</body>
+
+</html>

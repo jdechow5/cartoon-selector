@@ -1,0 +1,15 @@
+#card-results {
+  display: none;
+}
+.card {
+  margin-top: 50px;
+  padding-top: 5%;
+}
+
+.card-title {
+  text-align: center;
+}
+img {
+  width: 30%;
+  float: left;
+}
